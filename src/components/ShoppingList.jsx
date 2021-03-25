@@ -2,7 +2,6 @@ import React from "react";
 import { ListGroup } from "react-bootstrap";
 import { useSelector } from "react-redux";
 import { InListItem, InBasketItem } from ".";
-import Items from "./Items";
 
 export default function ShoppingList() {
   const items = useSelector(state => state.items);

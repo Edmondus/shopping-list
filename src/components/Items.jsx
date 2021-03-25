@@ -1,9 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import { ListGroup } from "react-bootstrap";
 import { useSelector } from "react-redux";
 import { InListItem, InBasketItem } from ".";
-import bananas from "../assets/bananas.png";
-import deleteIcon from "../assets/delete.png";
 
 export default function ShoppingList() {
   const items = useSelector(state => state.items);
